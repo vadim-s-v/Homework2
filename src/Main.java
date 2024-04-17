@@ -34,10 +34,16 @@ public class Main {
         System.out.println("friend / 7 = "+friend);
         // Задача 5
         System.out.println("Задача 5 ");
-        // Задача 1
-        System.out.println("Задача 1 ");
+        var frog=3.5;
+        System.out.println("frog = "+ frog);
+        frog=frog*10;
+        System.out.println("frog *10 ="+  frog);
+        frog=frog/3.5;
+        System.out.println("frog / 3.5 = "+  frog);
+        frog=frog+4;
+        System.out.println("frog + 4 = "+  frog);
 
-        // Задача 1
+        // Задача 6
         System.out.println("Задача 1 ");
 
         // Задача 1
