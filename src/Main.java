@@ -44,7 +44,13 @@ public class Main {
         System.out.println("frog + 4 = "+  frog);
 
         // Задача 6
-        System.out.println("Задача 1 ");
+        System.out.println("Задача 6 ");
+        var boxer1 = 78.2;//Масса одного боксера
+        var boxer2 = 87.2;//Масса второго боксера
+        var total = boxer1 + boxer2;//общая масса двух бойцов
+        var difweight = boxer2 - boxer1;//разница между массами бойцов
+        System.out.println("общая масса двух бойцов равна" + total);
+        System.out.println("разница между массами бойцов равна" + difweight);
 
         // Задача 1
         System.out.println("Задача 1 ");
