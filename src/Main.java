@@ -52,10 +52,22 @@ public class Main {
         System.out.println("общая масса двух бойцов равна" + total);
         System.out.println("разница между массами бойцов равна" + difweight);
 
-        // Задача 1
-        System.out.println("Задача 1 ");
-        // Задача 1
-        System.out.println("Задача 1 ");
+        // Задача 7
+        System.out.println("Задача 7 ");
+        var kusok = boxer2 % boxer1;
+        System.out.println("остаток от деления между двумя весами" + kusok);
+
+        // Задача 8
+        System.out.println("Задача 8 ");
+        var workHours = 640;// часы работы
+        var dayHours = 8;   //количество рабочих часов на одного работника
+        var workers = workHours / dayHours;// количество работников в компании
+        System.out.println("Всего работников в компании " + workers + " человек ");
+        workers = workers + 94;
+        workHours = workers * dayHours;
+        System.out.println("Если в компании работает" + workers " человек, то всего" +
+                workHours + " часов работы может быть поделено между сотрудниками");
+
 
         // Задача 1
         System.out.println("Задача 1 ");
