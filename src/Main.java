@@ -34,21 +34,39 @@ public class Main {
         System.out.println("friend / 7 = "+friend);
         // Задача 5
         System.out.println("Задача 5 ");
-        // Задача 1
-        System.out.println("Задача 1 ");
+        var frog=3.5;
+        System.out.println("frog = "+ frog);
+        frog=frog*10;
+        System.out.println("frog *10 ="+  frog);
+        frog=frog/3.5;
+        System.out.println("frog / 3.5 = "+  frog);
+        frog=frog+4;
+        System.out.println("frog + 4 = "+  frog);
 
-        // Задача 1
-        System.out.println("Задача 1 ");
+        // Задача 6
+        System.out.println("Задача 6 ");
+        var boxer1 = 78.2;//Масса одного боксера
+        var boxer2 = 87.2;//Масса второго боксера
+        var total = boxer1 + boxer2;//общая масса двух бойцов
+        var difweight = boxer2 - boxer1;//разница между массами бойцов
+        System.out.println("общая масса двух бойцов равна" + total);
+        System.out.println("разница между массами бойцов равна" + difweight);
 
-        // Задача 1
-        System.out.println("Задача 1 ");
-        // Задача 1
-        System.out.println("Задача 1 ");
+        // Задача 7
+        System.out.println("Задача 7 ");
+        var kusok = boxer2 % boxer1;
+        System.out.println("остаток от деления между двумя весами" + kusok);
 
-        // Задача 1
-        System.out.println("Задача 1 ");
-        // Задача 1// Задача 1
-
+        // Задача 8
+        System.out.println("Задача 8 ");
+        var workHours = 640;// часы работы
+        var dayHours = 8;   //количество рабочих часов на одного работника
+        var workers = workHours / dayHours;// количество работников в компании
+        System.out.println("Всего работников в компании " + workers + " человек ");
+        workers = workers + 94;
+        workHours = workers * dayHours;
+        System.out.println("Если в компании работает " + workers + " человек, то всего " +
+                workHours + " часов работы может быть поделено между сотрудниками");
 
 
     }
